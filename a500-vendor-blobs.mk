@@ -120,6 +120,7 @@ PRODUCT_COPY_FILES += \
     vendor/acer/a500/proprietary/libnvtestresults.so:/system/lib/libnvtestresults.so \
     vendor/acer/a500/proprietary/libnvwsi.so:/system/lib/libnvwsi.so \
     vendor/acer/a500/proprietary/libpdfhost_pre.so:/system/lib/libpdfhost_pre.so \
+    vendor/acer/a500/proprietary/libpkip.so:/system/lib/libpkip.so \
     vendor/acer/a500/proprietary/librmsdkplatform_presys.so:/system/lib/librmsdkplatform_presys.so \
     vendor/acer/a500/proprietary/libstabilize.so:/system/lib/libstabilize.so \
     vendor/acer/a500/proprietary/libstagefrighthw.so:/system/lib/libstagefrighthw.so \
