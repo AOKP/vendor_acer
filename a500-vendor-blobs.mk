@@ -64,6 +64,7 @@ PRODUCT_COPY_FILES += \
     vendor/acer/a500/proprietary/tegra_alsa.tegra.so:/system/lib/hw/tegra_alsa.tegra.so \
     vendor/acer/a500/proprietary/libWVStreamControlAPI.so:/system/lib/libWVStreamControlAPI.so \
     vendor/acer/a500/proprietary/libat.so:/system/lib/libat.so \
+    vendor/acer/a500/proprietary/libardrv_dynamic.so:/system/lib/libardrv_dynamic.so \
     vendor/acer/a500/proprietary/libdiskusage.so:/system/lib/libdiskusage.so \
     vendor/acer/a500/proprietary/libgpsctrl.so:/system/lib/libgpsctrl.so \
     vendor/acer/a500/proprietary/libhccommon.so:/system/lib/libhccommon.so \
