@@ -76,6 +76,7 @@ PRODUCT_COPY_FILES += \
     vendor/acer/a500/proprietary/libjni_xt9kcm.so:/system/lib/libjni_xt9kcm.so \
     vendor/acer/a500/proprietary/libjni_xt9korean.so:/system/lib/libjni_xt9korean.so \
     vendor/acer/a500/proprietary/libjnidhsdk.so:/system/lib/libjnidhsdk.so \
+    vendor/acer/a500/proprietary/audio.primary.tegra.so:/system/lib/hw/audio.primary.tegra.so \
     vendor/acer/a500/proprietary/libkeyboard_jni.so:/system/lib/libkeyboard_jni.so \
     vendor/acer/a500/proprietary/libmbm-ril.so:/system/lib/libmbm-ril.so \
     vendor/acer/a500/proprietary/libnvmm_msaudio.so:/system/lib/libnvmm_msaudio.so \
@@ -136,7 +137,7 @@ PRODUCT_COPY_FILES += \
     vendor/acer/a500/proprietary/libnvmm_videorenderer.so:/system/lib/libnvmm_videorenderer.so \
     vendor/acer/a500/proprietary/libnvmm_videorenderer.so:/system/lib/libnvmm_videorenderer.so \
     vendor/acer/a500/proprietary/libnvmm_vp6_video.so:/system/lib/libnvmm_vp6_video.so \
-    vendor/acer/a500/proprietary/:/system/lib/libnvmm_writer.so \
+    vendor/acer/a500/proprietary/audio.primary.tegra.so:/system/lib/hw/audio.primary.tegra.so \
     vendor/acer/a500/proprietary/libnvmm_writer.so:/system/lib/libnvmm_writer.so \
     vendor/acer/a500/proprietary/libnvodm_dtvtuner.so:/system/lib/libnvodm_dtvtuner.so \
     vendor/acer/a500/proprietary/libnvodm_imager.so:/system/lib/libnvodm_imager.so \
