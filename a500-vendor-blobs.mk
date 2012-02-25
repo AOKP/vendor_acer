@@ -50,6 +50,11 @@ PRODUCT_COPY_FILES += \
     vendor/acer/a500/proprietary/libEGL_tegra.so:/system/lib/egl/libEGL_tegra.so \
     vendor/acer/a500/proprietary/libGLESv1_CM_tegra.so:/system/lib/egl/libGLESv1_CM_tegra.so \
     vendor/acer/a500/proprietary/libGLESv2_tegra.so:/system/lib/egl/libGLESv2_tegra.so \
+    vendor/acer/a500/proprietary/audio.a2dp.default.so:/system/lib/hw/audio.a2dp.default.so \
+    vendor/acer/a500/proprietary/gps.hw.so:/system/lib/hw/gps.hw.so \
+    vendor/acer/a500/proprietary/gps.mbm.so:/system/lib/hw/gps.mbm.so \
+    vendor/acer/a500/proprietary/gps.ventana.so1:/system/lib/hw/gps.ventana.so1 \
+    vendor/acer/a500/proprietary/hwcomposer.default.so:/system/lib/hw/hwcomposer.default.so \
     vendor/acer/a500/proprietary/gps.tegra.so:/system/lib/hw/gps.tegra.so \
     vendor/acer/a500/proprietary/gralloc.tegra.so:/system/lib/hw/gralloc.tegra.so \
     vendor/acer/a500/proprietary/hwcomposer.tegra.so:/system/lib/hw/hwcomposer.tegra.so \
@@ -58,12 +63,40 @@ PRODUCT_COPY_FILES += \
     vendor/acer/a500/proprietary/sensors.tegra.so:/system/lib/hw/sensors.tegra.so \
     vendor/acer/a500/proprietary/tegra_alsa.tegra.so:/system/lib/hw/tegra_alsa.tegra.so \
     vendor/acer/a500/proprietary/libWVStreamControlAPI.so:/system/lib/libWVStreamControlAPI.so \
+    vendor/acer/a500/proprietary/libat.so:/system/lib/libat.so \
+    vendor/acer/a500/proprietary/libdiskusage.so:/system/lib/libdiskusage.so \
+    vendor/acer/a500/proprietary/libgpsctrl.so:/system/lib/libgpsctrl.so \
+    vendor/acer/a500/proprietary/libhccommon.so:/system/lib/libhccommon.so \
+    vendor/acer/a500/proprietary/libhuawei-ril.so:/system/lib/libhuawei-ril.so \
+    vendor/acer/a500/proprietary/libimage_process.so:/system/lib/libimage_process.so \
+    vendor/acer/a500/proprietary/libiris-jni.so:/system/lib/libiris-jni.so \
+    vendor/acer/a500/proprietary/libjackpal-androidterm3.so:/system/lib/libjackpal-androidterm3.so \
+    vendor/acer/a500/proprietary/libjni_pinyinime.so:/system/lib/libjni_pinyinime.so \
+    vendor/acer/a500/proprietary/libjni_touchlatinime.so:/system/lib/libjni_touchlatinime.so \
+    vendor/acer/a500/proprietary/libjni_xt9kcm.so:/system/lib/libjni_xt9kcm.so \
+    vendor/acer/a500/proprietary/libjni_xt9korean.so:/system/lib/libjni_xt9korean.so \
+    vendor/acer/a500/proprietary/libjnidhsdk.so:/system/lib/libjnidhsdk.so \
+    vendor/acer/a500/proprietary/libkeyboard_jni.so:/system/lib/libkeyboard_jni.so \
+    vendor/acer/a500/proprietary/libmbm-ril.so:/system/lib/libmbm-ril.so \
+    vendor/acer/a500/proprietary/libnvmm_msaudio.so:/system/lib/libnvmm_msaudio.so \
+    vendor/acer/a500/proprietary/libnvwinsys.so:/system/lib/libnvwinsys.so \
+    vendor/acer/a500/proprietary/libpeffect.so:/system/lib/libpeffect.so \
+    vendor/acer/a500/proprietary/libphotoflow.so:/system/lib/libphotoflow.so \
+    vendor/acer/a500/proprietary/librpc.so:/system/lib/librpc.so \
+    vendor/acer/a500/proprietary/libsupl.so:/system/lib/libsupl.so \
+    vendor/acer/a500/proprietary/libui3d-jni.so:/system/lib/libui3d-jni.so \
     vendor/acer/a500/proprietary/liba2dp.so:/system/lib/liba2dp.so \
     vendor/acer/a500/proprietary/libaceralbum.so:/system/lib/libaceralbum.so \
     vendor/acer/a500/proprietary/libasound.so:/system/lib/libasound.so \
     vendor/acer/a500/proprietary/libaudio.so:/system/lib/libaudio.so \
     vendor/acer/a500/proprietary/libaudiopolicy.so:/system/lib/libaudiopolicy.so \
     vendor/acer/a500/proprietary/libcaps.so:/system/lib/libcaps.so \
+    vendor/acer/a500/proprietary/libContourJNI.so:/system/lib/libContourJNI.so \
+    vendor/acer/a500/proprietary/libMI_Color_JNI.so:/system/lib/libMI_Color_JNI.so \
+    vendor/acer/a500/proprietary/libMI_Effect_JNI.so:/system/lib/libMI_Effect_JNI.so \
+    vendor/acer/a500/proprietary/libMI_Motion_JNI.so:/system/lib/libMI_Motion_JNI.so \
+    vendor/acer/a500/proprietary/libMI_ObjectSel_JNI.so:/system/lib/libMI_ObjectSel_JNI.so \
+    vendor/acer/a500/proprietary/libMI_Tool_JNI.so:/system/lib/libMI_Tool_JNI.so \
     vendor/acer/a500/proprietary/libcgdrv.so:/system/lib/libcgdrv.so \
     vendor/acer/a500/proprietary/libdec.so:/system/lib/libdec.so \
     vendor/acer/a500/proprietary/libgetsourceid.so:/system/lib/libgetsourceid.so \
