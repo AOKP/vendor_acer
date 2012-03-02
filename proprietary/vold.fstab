@@ -12,4 +12,4 @@
 
 # Configuration of Picasso
 dev_mount external_sdcard /mnt/external_sd auto /devices/platform/sdhci-tegra.2/mmc_host/mmc1
-dev_mount external_usb_disk /mnt/usb_storage auto /devices/platform/tegra-ehci.2/usb1
+dev_mount external_usb_disk /mnt/usb_storage auto /devices/platform/tegra-ehci.2/usb1 /devices/platform/tegra-ehci.2/usb2

@@ -23,19 +23,13 @@ PRODUCT_COPY_FILES += \
     vendor/acer/a500/proprietary/asound.conf:/system/etc/asound.conf \
     vendor/acer/a500/proprietary/gps.conf:/system/etc/gps.conf \
     vendor/acer/a500/proprietary/media_profiles.xml:/system/etc/media_profiles.xml \
-    vendor/acer/a500/proprietary/nvram.txt:/system/etc/nvram.txt \
-    vendor/acer/a500/proprietary/vold.fstab:/system/etc/vold.fstab \
     vendor/acer/a500/proprietary/bcm4329.hcd:/system/etc/firmware/bcm4329.hcd \
-    vendor/acer/a500/proprietary/nvddk_audiofx_core.axf:/system/etc/firmware/nvddk_audiofx_core.axf \
-    vendor/acer/a500/proprietary/nvddk_audiofx_transport.axf:/system/etc/firmware/nvddk_audiofx_transport.axf \
     vendor/acer/a500/proprietary/nvmm_aacdec.axf:/system/etc/firmware/nvmm_aacdec.axf \
     vendor/acer/a500/proprietary/nvmm_adtsdec.axf:/system/etc/firmware/nvmm_adtsdec.axf \
-    vendor/acer/a500/proprietary/nvmm_audiomixer.axf:/system/etc/firmware/nvmm_audiomixer.axf \
     vendor/acer/a500/proprietary/nvmm_h264dec.axf:/system/etc/firmware/nvmm_h264dec.axf \
     vendor/acer/a500/proprietary/nvmm_jpegdec.axf:/system/etc/firmware/nvmm_jpegdec.axf \
     vendor/acer/a500/proprietary/nvmm_jpegenc.axf:/system/etc/firmware/nvmm_jpegenc.axf \
     vendor/acer/a500/proprietary/nvmm_manager.axf:/system/etc/firmware/nvmm_manager.axf \
-    vendor/acer/a500/proprietary/nvmm_mp2dec.axf:/system/etc/firmware/nvmm_mp2dec.axf \
     vendor/acer/a500/proprietary/nvmm_mp3dec.axf:/system/etc/firmware/nvmm_mp3dec.axf \
     vendor/acer/a500/proprietary/nvmm_mpeg4dec.axf:/system/etc/firmware/nvmm_mpeg4dec.axf \
     vendor/acer/a500/proprietary/nvmm_reference.axf:/system/etc/firmware/nvmm_reference.axf \
@@ -43,67 +37,30 @@ PRODUCT_COPY_FILES += \
     vendor/acer/a500/proprietary/nvmm_sorensondec.axf:/system/etc/firmware/nvmm_sorensondec.axf \
     vendor/acer/a500/proprietary/nvmm_vc1dec.axf:/system/etc/firmware/nvmm_vc1dec.axf \
     vendor/acer/a500/proprietary/nvmm_wavdec.axf:/system/etc/firmware/nvmm_wavdec.axf \
-    vendor/acer/a500/proprietary/nvmm_wmadec.axf://system/etc/firmware/nvmm_wmadec.axf \
-    vendor/acer/a500/proprietary/nvmm_wmaprodec.axf://system/etc/firmware/nvmm_wmaprodec.axf \
+    vendor/acer/a500/proprietary/nvmm_wmadec.axf:/system/etc/firmware/nvmm_wmadec.axf \
+    vendor/acer/a500/proprietary/nvmm_wmaprodec.axf:/system/etc/firmware/nvmm_wmaprodec.axf \
     vendor/acer/a500/proprietary/nvrm_avp.bin:/system/etc/firmware/nvrm_avp.bin \
     vendor/acer/a500/proprietary/gpsconfig.xml:/system/etc/gps/gpsconfig.xml \
     vendor/acer/a500/proprietary/libEGL_tegra.so:/system/lib/egl/libEGL_tegra.so \
     vendor/acer/a500/proprietary/libGLESv1_CM_tegra.so:/system/lib/egl/libGLESv1_CM_tegra.so \
     vendor/acer/a500/proprietary/libGLESv2_tegra.so:/system/lib/egl/libGLESv2_tegra.so \
     vendor/acer/a500/proprietary/audio.a2dp.default.so:/system/lib/hw/audio.a2dp.default.so \
-    vendor/acer/a500/proprietary/gps.hw.so:/system/lib/hw/gps.hw.so \
-    vendor/acer/a500/proprietary/gps.mbm.so:/system/lib/hw/gps.mbm.so \
-    vendor/acer/a500/proprietary/gps.ventana.so1:/system/lib/hw/gps.ventana.so1 \
-    vendor/acer/a500/proprietary/hwcomposer.default.so:/system/lib/hw/hwcomposer.default.so \
     vendor/acer/a500/proprietary/gps.tegra.so:/system/lib/hw/gps.tegra.so \
     vendor/acer/a500/proprietary/gralloc.tegra.so:/system/lib/hw/gralloc.tegra.so \
     vendor/acer/a500/proprietary/hwcomposer.tegra.so:/system/lib/hw/hwcomposer.tegra.so \
     vendor/acer/a500/proprietary/lights.picasso.so:/system/lib/hw/lights.picasso.so \
-    vendor/acer/a500/proprietary/overlay.tegra.so:/system/lib/hw/overlay.tegra.so \
     vendor/acer/a500/proprietary/sensors.tegra.so:/system/lib/hw/sensors.tegra.so \
-    vendor/acer/a500/proprietary/tegra_alsa.tegra.so:/system/lib/hw/tegra_alsa.tegra.so \
-    vendor/acer/a500/proprietary/libWVStreamControlAPI.so:/system/lib/libWVStreamControlAPI.so \
-    vendor/acer/a500/proprietary/libat.so:/system/lib/libat.so \
+    vendor/acer/a500/proprietary/libWVStreamControlAPI_L3.so:/system/lib/libWVStreamControlAPI_L3.so \
     vendor/acer/a500/proprietary/libardrv_dynamic.so:/system/lib/libardrv_dynamic.so \
-    vendor/acer/a500/proprietary/libdiskusage.so:/system/lib/libdiskusage.so \
-    vendor/acer/a500/proprietary/libgpsctrl.so:/system/lib/libgpsctrl.so \
-    vendor/acer/a500/proprietary/libhccommon.so:/system/lib/libhccommon.so \
-    vendor/acer/a500/proprietary/libhuawei-ril.so:/system/lib/libhuawei-ril.so \
-    vendor/acer/a500/proprietary/libimage_process.so:/system/lib/libimage_process.so \
-    vendor/acer/a500/proprietary/libiris-jni.so:/system/lib/libiris-jni.so \
-    vendor/acer/a500/proprietary/libjackpal-androidterm3.so:/system/lib/libjackpal-androidterm3.so \
-    vendor/acer/a500/proprietary/libjni_pinyinime.so:/system/lib/libjni_pinyinime.so \
-    vendor/acer/a500/proprietary/libjni_touchlatinime.so:/system/lib/libjni_touchlatinime.so \
-    vendor/acer/a500/proprietary/libjni_xt9kcm.so:/system/lib/libjni_xt9kcm.so \
-    vendor/acer/a500/proprietary/libjni_xt9korean.so:/system/lib/libjni_xt9korean.so \
-    vendor/acer/a500/proprietary/libjnidhsdk.so:/system/lib/libjnidhsdk.so \
     vendor/acer/a500/proprietary/audio.primary.tegra.so:/system/lib/hw/audio.primary.tegra.so \
-    vendor/acer/a500/proprietary/libkeyboard_jni.so:/system/lib/libkeyboard_jni.so \
-    vendor/acer/a500/proprietary/libmbm-ril.so:/system/lib/libmbm-ril.so \
     vendor/acer/a500/proprietary/libnvmm_msaudio.so:/system/lib/libnvmm_msaudio.so \
     vendor/acer/a500/proprietary/libnvwinsys.so:/system/lib/libnvwinsys.so \
-    vendor/acer/a500/proprietary/libpeffect.so:/system/lib/libpeffect.so \
     vendor/acer/a500/proprietary/libphotoflow.so:/system/lib/libphotoflow.so \
-    vendor/acer/a500/proprietary/librpc.so:/system/lib/librpc.so \
-    vendor/acer/a500/proprietary/libsupl.so:/system/lib/libsupl.so \
-    vendor/acer/a500/proprietary/libui3d-jni.so:/system/lib/libui3d-jni.so \
-    vendor/acer/a500/proprietary/liba2dp.so:/system/lib/liba2dp.so \
     vendor/acer/a500/proprietary/libaceralbum.so:/system/lib/libaceralbum.so \
     vendor/acer/a500/proprietary/libasound.so:/system/lib/libasound.so \
-    vendor/acer/a500/proprietary/libaudio.so:/system/lib/libaudio.so \
-    vendor/acer/a500/proprietary/libaudiopolicy.so:/system/lib/libaudiopolicy.so \
     vendor/acer/a500/proprietary/libcaps.so:/system/lib/libcaps.so \
-    vendor/acer/a500/proprietary/libContourJNI.so:/system/lib/libContourJNI.so \
-    vendor/acer/a500/proprietary/libMI_Color_JNI.so:/system/lib/libMI_Color_JNI.so \
-    vendor/acer/a500/proprietary/libMI_Effect_JNI.so:/system/lib/libMI_Effect_JNI.so \
-    vendor/acer/a500/proprietary/libMI_Motion_JNI.so:/system/lib/libMI_Motion_JNI.so \
-    vendor/acer/a500/proprietary/libMI_ObjectSel_JNI.so:/system/lib/libMI_ObjectSel_JNI.so \
-    vendor/acer/a500/proprietary/libMI_Tool_JNI.so:/system/lib/libMI_Tool_JNI.so \
     vendor/acer/a500/proprietary/libcgdrv.so:/system/lib/libcgdrv.so \
     vendor/acer/a500/proprietary/libdec.so:/system/lib/libdec.so \
-    vendor/acer/a500/proprietary/libgetsourceid.so:/system/lib/libgetsourceid.so \
-    vendor/acer/a500/proprietary/libhtml2xhtml.so:/system/lib/libhtml2xhtml.so \
-    vendor/acer/a500/proprietary/libhtml2xhtml.so:/system/lib/libhtml2xhtml.so \
     vendor/acer/a500/proprietary/libhwui.so:/system/lib/libhwui.so \
     vendor/acer/a500/proprietary/libjni_xt9input.so:/system/lib/libjni_xt9input.so \
     vendor/acer/a500/proprietary/libmllite.so:/system/lib/libmllite.so \
@@ -111,32 +68,19 @@ PRODUCT_COPY_FILES += \
     vendor/acer/a500/proprietary/libmpl.so:/system/lib/libmpl.so \
     vendor/acer/a500/proprietary/libnvddk_2d.so:/system/lib/libnvddk_2d.so \
     vendor/acer/a500/proprietary/libnvddk_2d_v2.so:/system/lib/libnvddk_2d_v2.so \
-    vendor/acer/a500/proprietary/libnvddk_aes_user.so:/system/lib/libnvddk_aes_user.so \
-    vendor/acer/a500/proprietary/libnvddk_audiofx.so:/system/lib/libnvddk_audiofx.so \
-    vendor/acer/a500/proprietary/libnvddk_vmr.so:/system/lib/libnvddk_vmr.so \
-    vendor/acer/a500/proprietary/libnvdispatch_helper.so:/system/lib/libnvdispatch_helper.so \
-    vendor/acer/a500/proprietary/libnvdispmgr_d.so:/system/lib/libnvdispmgr_d.so \
-    vendor/acer/a500/proprietary/libnvec.so:/system/lib/libnvec.so \
-    vendor/acer/a500/proprietary/libnvmm.so:/system/lib/libnvmm.so \
     vendor/acer/a500/proprietary/libnvmm.so:/system/lib/libnvmm.so \
     vendor/acer/a500/proprietary/libnvmm_asfparser.so:/system/lib/libnvmm_asfparser.so \
     vendor/acer/a500/proprietary/libnvmm_audio.so:/system/lib/libnvmm_audio.so \
     vendor/acer/a500/proprietary/libnvmm_aviparser.so:/system/lib/libnvmm_aviparser.so \
-    vendor/acer/a500/proprietary/libnvmm_camera.so:/system/lib/libnvmm_camera.so \
-    vendor/acer/a500/proprietary/libcamera.so:/system/lib/libcamera.so \
     vendor/acer/a500/proprietary/libnvmm_contentpipe.so:/system/lib/libnvmm_contentpipe.so \
     vendor/acer/a500/proprietary/libnvmm_image.so:/system/lib/libnvmm_image.so \
     vendor/acer/a500/proprietary/libnvmm_manager.so:/system/lib/libnvmm_manager.so \
     vendor/acer/a500/proprietary/libnvmm_misc.so:/system/lib/libnvmm_misc.so \
-    vendor/acer/a500/proprietary/:/system/lib/libnvmm_msaudio.so \
     vendor/acer/a500/proprietary/libnvmm_parser.so:/system/lib/libnvmm_parser.so \
     vendor/acer/a500/proprietary/libnvmm_service.so:/system/lib/libnvmm_service.so \
-    vendor/acer/a500/proprietary/libnvmm_tracklist.so:/system/lib/libnvmm_tracklist.so \
     vendor/acer/a500/proprietary/libnvmm_utils.so:/system/lib/libnvmm_utils.so \
     vendor/acer/a500/proprietary/libnvmm_vc1_video.so:/system/lib/libnvmm_vc1_video.so \
     vendor/acer/a500/proprietary/libnvmm_video.so:/system/lib/libnvmm_video.so \
-    vendor/acer/a500/proprietary/libnvmm_videorenderer.so:/system/lib/libnvmm_videorenderer.so \
-    vendor/acer/a500/proprietary/libnvmm_videorenderer.so:/system/lib/libnvmm_videorenderer.so \
     vendor/acer/a500/proprietary/libnvmm_vp6_video.so:/system/lib/libnvmm_vp6_video.so \
     vendor/acer/a500/proprietary/audio.primary.tegra.so:/system/lib/hw/audio.primary.tegra.so \
     vendor/acer/a500/proprietary/libnvmm_writer.so:/system/lib/libnvmm_writer.so \
