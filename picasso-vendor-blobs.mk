@@ -44,8 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/acer/picasso/proprietary/lib/hw/gralloc.tegra.so:/system/lib/hw/gralloc.tegra.so \
     vendor/acer/picasso/proprietary/lib/hw/hwcomposer.tegra.so:/system/lib/hw/hwcomposer.tegra.so \
     vendor/acer/picasso/proprietary/lib/hw/lights.picasso.so:/system/lib/hw/lights.picasso.so \
-    vendor/acer/picasso/proprietary/lib/hw/audio_policy.tegra.so:/system/lib/hw/audio_policy.tegra.so \
-    vendor/acer/picasso/proprietary/lib/hw/audio.primary.tegra.so:/system/lib/hw/audio.primary.tegra.so \
     vendor/acer/picasso/proprietary/lib/hw/sensors.tegra.so:/system/lib/hw/sensors.tegra.so \
     vendor/acer/picasso/proprietary/lib/libardrv_dynamic.so:/system/lib/libardrv_dynamic.so \
     vendor/acer/picasso/proprietary/lib/libasound.so:/system/lib/libasound.so \
