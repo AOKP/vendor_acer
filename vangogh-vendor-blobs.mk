@@ -54,7 +54,6 @@ PRODUCT_COPY_FILES += \
     vendor/acer/vangogh/proprietary/lib/libnvasfparserhal.so:/system/lib/libnvasfparserhal.so \
     vendor/acer/vangogh/proprietary/lib/libnvmm.so:/system/lib/libnvmm.so \
     vendor/acer/vangogh/proprietary/lib/libnvrm_graphics.so:/system/lib/libnvrm_graphics.so \
-    vendor/acer/vangogh/proprietary/lib/libasound.so:/system/lib/libasound.so \
     vendor/acer/vangogh/proprietary/lib/libnvomxilclient.so:/system/lib/libnvomxilclient.so \
     vendor/acer/vangogh/proprietary/lib/libnvodm_hdmi.so:/system/lib/libnvodm_hdmi.so \
     vendor/acer/vangogh/proprietary/lib/libnvmm_service.so:/system/lib/libnvmm_service.so \
